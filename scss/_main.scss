@@ -1,0 +1,387 @@
+ .Donate-info {
+	height: 644px;
+	background-color: #050404;
+
+	& > div {
+		width: 1153px;
+		height: 515px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+
+		padding-top: 37px;
+
+		img {
+			margin-right: 132px;
+			margin-top: 55px;
+
+			width: 396px;
+			height: 460px;
+		}
+
+		& > div {
+			height: 460px;
+			width: 625px;
+
+			h3 {
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 64px;
+				line-height: 77px;
+				
+				color: #FFD76E;
+
+				margin-bottom: 46px;
+			}
+
+			p {
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 29px;
+				text-align: justify;
+				
+				color: #FFFFFF;
+
+				width: 559px;
+
+				margin-bottom: 130px;
+				margin-left: 66px;
+			}
+
+			button {
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 29px;
+				
+				padding: 15px 31px;
+
+				color: #000000;
+				background: #FFD76E;
+				border-radius: 10px;
+
+				border: none;
+				margin-left: 423px;
+			}
+		}
+	}
+ }
+
+ .Kharkiv {
+	background-image: url(../img/City-backround.png);
+	height: 300px;
+	text-align: center;
+	position: relative;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+	h4 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 29px;
+		
+		color: #000000;
+
+		padding-top: 72px;
+		padding-bottom: 25px;
+	}
+
+	p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 24px;
+		
+		color: #000000;
+
+		width: 351px;
+
+		margin: 0 auto;
+	}
+
+	div:nth-of-type(1) {
+		box-sizing: border-box;
+		position: absolute;
+		width: 248px;
+		height: 369px;
+
+		border: 2px solid #FFD76E;
+		transform: matrix(0.99, -0.15, 0.17, 0.98, 0, 0);
+		right: 35px;
+		bottom: 30px;
+	}
+
+	div:nth-of-type(2) {
+		box-sizing: border-box;
+		position: absolute;
+		width: 179px;
+		height: 341px;
+
+		border: 2px solid #FFFFFF;
+		transform: matrix(-0.17, -0.98, 0.99, -0.15, 0, 0);
+
+		right: -120px;
+		bottom: -55px;
+	}
+ }
+
+ .Donate {
+	height: 737px;
+	background-color: #050404;
+	box-sizing: border-box;
+
+	h3 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 64px;
+		line-height: 77px;
+		
+		color: #FFD76E;
+		text-align: center;
+		padding-top: 39px;
+		padding-bottom: 40px;
+	}
+
+	& > div {
+		width: 1012px;
+		height: 529px;
+		margin: 0 auto;
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		position: relative;
+
+		& > div:nth-of-type(1) {
+			img {
+				width: 395px;
+				height: 529px;
+
+			}
+
+		  p {
+				position: absolute;
+
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 32px;
+				line-height: 39px;
+				
+				
+				color: #000000;
+				padding: 88px 40px;
+
+				background: rgba(255, 255, 255, 0.9);
+				border-radius: 32px;
+
+				left: 0px;
+				bottom: 0px;
+			}
+		}
+
+		& > div:nth-of-type(2) {
+			img {
+				width: 395px;
+				height: 529px;
+			}
+
+			p {
+				position: absolute;
+				
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 32px;
+				line-height: 39px;
+				
+				
+				color: #000000;
+				padding: 88px 20px;
+				
+			  background: rgba(255, 255, 255, 0.9);
+				border-radius: 32px;
+				
+				right: 0px;
+				bottom: 0px;
+			}
+		}
+	}
+}
+
+.Kyiv {
+	background-image: url(../img/City-backround.png);
+	height: 300px;
+	text-align: center;
+	position: relative;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h4 {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 29px;
+	
+			color: #000000;
+	
+			padding-top: 72px;
+			padding-bottom: 25px;
+		}
+	
+	p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 24px;
+	
+		color: #000000;
+	
+		width: 351px;
+	
+		margin: 0 auto;
+	}
+}
+
+.Game {
+	height: 1362px;
+
+	background-image: url(../img/Game-backround.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	& > div {
+		width: 1138px;
+		height: 1157px;
+		margin: 0 auto;
+
+		& > div:nth-of-type(1) {
+			width: 1134px;
+			height: 452px;
+
+			padding-top: 43px;
+			margin: 0 auto;
+			margin-bottom: 293px;
+
+			& > h3 {
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 64px;
+				line-height: 77px;
+				
+				color: #FFD76E;
+				text-align: center;
+
+				margin-bottom: 30px;
+			}
+
+			& > div {
+				width: 1134px;
+				height: 345px;
+
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				&  > img {
+					height: 29px;
+				}
+
+				& > div {
+					& > p {
+						font-family: 'Inter';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 24px;
+						line-height: 29px;
+						
+						color: #FFFFFF;
+						text-align: center;
+						margin-top: 23px;
+					}
+				}
+
+			}
+		}
+
+		div:nth-of-type(2) {
+
+			& > h3 {
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 64px;
+				line-height: 77px;
+				
+				color: #FFD76E;
+				text-align: center;
+
+				margin-bottom: 23px;
+			}
+
+			& > div {
+				width: 1134px;
+				height: 294px;
+
+				margin: 0 auto;
+
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+
+		}
+	}
+}
+
+.Kherson {
+	background-image: url(../img/City-backround.png);
+	height: 300px;
+	text-align: center;
+	position: relative;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h4 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 29px;
+
+		color: #000000;
+
+		padding-top: 72px;
+		padding-bottom: 25px;
+	}
+
+	p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 24px;
+
+		color: #000000;
+
+		width: 351px;
+
+		margin: 0 auto;
+	}
+}
